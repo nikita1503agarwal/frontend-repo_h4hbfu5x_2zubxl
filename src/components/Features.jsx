@@ -1,4 +1,4 @@
-import { ShieldCheck, Sparkles, BookOpen, GitBranch, HeartHandshake, Search } from "lucide-react";
+import { ShieldCheck, Sparkles, BookOpen, GitBranch, Heart, Search } from "lucide-react";
 
 export default function Features() {
   const features = [
@@ -18,7 +18,7 @@ export default function Features() {
       desc: "Evidence-based articles, guides, and templates tailored to diverse needs.",
     },
     {
-      icon: <HeartHandshake className="w-5 h-5 text-rose-600" />,
+      icon: <Heart className="w-5 h-5 text-rose-600" />,
       title: "Supportive moderation",
       desc: "Safety-first space with clear guidelines and inclusive language tools.",
     },
